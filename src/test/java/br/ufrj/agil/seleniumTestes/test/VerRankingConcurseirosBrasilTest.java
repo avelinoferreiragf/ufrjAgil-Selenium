@@ -15,6 +15,11 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
+/**
+ * Esse é um exemplo que o grupo dos concurseiros poderia utilizar.
+ * Acessa a página dos concurseiros e visualiza o Ranking.
+ */
 public class VerRankingConcurseirosBrasilTest {
 
 	private final String BROWSER_FILE_PATH = new File("drivers/phantomjs").getAbsolutePath();

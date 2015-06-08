@@ -8,6 +8,12 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * Selenium utilizando o driver do Google Chrome.
+ * 
+ * Faz a abertura simples da tela do browser.
+ *
+ */
 public class SeleniumChrome  {
 
 	private final Long SLEEP_TIME = 5000L;

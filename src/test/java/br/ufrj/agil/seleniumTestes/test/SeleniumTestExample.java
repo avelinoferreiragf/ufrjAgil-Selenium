@@ -14,6 +14,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * Abre uma tela do Browser, acessa a página da UFRJ, clica no 
+ * link da intranet. Informa o login e senha inválido. Recupera a mensagem de erro.
+ */
+
 public class SeleniumTestExample  {
 
 	private final String BROWSER_FILE_PATH = new File("drivers/chromedriver").getAbsolutePath();

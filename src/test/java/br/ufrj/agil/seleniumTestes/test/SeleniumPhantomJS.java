@@ -16,6 +16,12 @@ import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+/**
+ * Selenium utilizando o driver do Selenium js (Headless browser).
+ * 
+ * Faz a abertura simples da tela do browser e tira um Screenshot.
+ *
+ */
 public class SeleniumPhantomJS  {
 
 	private final String BROWSER_FILE_PATH = new File("drivers/phantomjs").getAbsolutePath();

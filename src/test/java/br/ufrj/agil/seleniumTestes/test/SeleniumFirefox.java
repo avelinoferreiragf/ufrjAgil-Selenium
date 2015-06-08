@@ -6,6 +6,12 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+/**
+ * Selenium utilizando o driver do Firefox.
+ * 
+ * Faz a abertura simples da tela do browser.
+ *
+ */
 public class SeleniumFirefox  {
 
 	private final Long SLEEP_TIME = 5000L;

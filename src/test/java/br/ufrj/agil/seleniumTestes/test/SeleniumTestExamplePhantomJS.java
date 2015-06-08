@@ -6,8 +6,6 @@ import static org.hamcrest.Matchers.containsString;
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,6 +17,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+/**
+ * Abre uma tela do Browser, acessa a página da UFRJ, clica no 
+ * link da intranet. Informa o login e senha inválido. Recupera a mensagem de erro.
+ * Tudo usso em um HeadlessBrowser.
+ */
 
 public class SeleniumTestExamplePhantomJS  {
 
